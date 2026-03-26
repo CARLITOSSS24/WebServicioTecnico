@@ -66,7 +66,7 @@ const steps = [
 ];
 
 const contactEmail = "carlitosojeda59@gmail.com";
-const whatsappNumber = "573001112233";
+const whatsappNumber = "573229496405";
 
 function ServiceIcon({ name }: { name: string }) {
   switch (name) {
@@ -285,7 +285,7 @@ export default function App() {
               <input
                 type="tel"
                 name="telefono"
-                placeholder="300 123 4567"
+                placeholder="(+57) 300 123 4567"
                 required
               />
             </label>
@@ -345,7 +345,7 @@ export default function App() {
 
       <a
         className="whatsapp-float"
-        href={`https://wa.me/${whatsappNumber}?text=Hola%2C%20quiero%20solicitar%20un%20servicio`}
+        href={`https://wa.me/${whatsappNumber}?text=Hola%2C%20quiero%20cotizar%20un%20servicio`}
         target="_blank"
         rel="noreferrer"
         aria-label="Contactar por WhatsApp"
