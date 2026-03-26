@@ -138,7 +138,7 @@ export default function App() {
 
       form.reset();
       setStatusMessage(
-        "Mensaje enviado correctamente. Revisa tu correo para confirmar la recepcion.",
+        "Mensaje enviado correctamente. Pronto me pondré en contacto contigo.",
       );
     } catch (_error) {
       setStatusMessage(
