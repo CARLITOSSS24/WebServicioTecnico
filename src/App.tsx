@@ -142,9 +142,6 @@ export default function App() {
       <nav className="topbar">
         <strong>WebServicioTecnico</strong>
         <div className="top-actions">
-          <a className="mini-btn" href="#servicios">
-            Ver servicios
-          </a>
           <a className="mini-btn mini-btn--primary" href="#formulario">
             Ir al formulario
           </a>
@@ -209,6 +206,7 @@ export default function App() {
           </p>
         </article>
 
+
         <article className="payments panel" id="pagos">
           <h2>Metodos de pago</h2>
           <p>
@@ -218,6 +216,8 @@ export default function App() {
             <li>Bancolombia (cuenta de ahorros)</li>
             <li>Nu (billetera digital)</li>
             <li>Dale (billetera digital)</li>
+            <li>Efectivo</li>
+            <li>Cuenta de cobro por transferencia</li>
           </ul>
         </article>
       </section>
@@ -319,50 +319,6 @@ export default function App() {
         </article>
       </section>
 
-      <section className="privacy-policy" id="politica-privacidad">
-        <h2>Politica de privacidad y tratamiento de datos personales</h2>
-        <p>
-          En cumplimiento de la Ley 1581 de 2012, el Decreto 1377 de 2013 y
-          demas normas aplicables en Colombia sobre habeas data, WebServicioTecnico
-          informa a los titulares de datos personales:
-        </p>
-        <ul>
-          <li>
-            <strong>Responsable del tratamiento:</strong> WebServicioTecnico.
-          </li>
-          <li>
-            <strong>Datos recolectados:</strong> nombre, correo electronico,
-            telefono y detalles del servicio solicitado mediante el formulario.
-          </li>
-          <li>
-            <strong>Finalidad:</strong> contacto comercial, cotizacion,
-            prestacion del servicio tecnico y seguimiento de solicitudes.
-          </li>
-          <li>
-            <strong>Canales de atencion:</strong> correo{" "}
-            <strong>{contactEmail}</strong> y WhatsApp de contacto.
-          </li>
-          <li>
-            <strong>Derechos del titular:</strong> conocer, actualizar,
-            rectificar y suprimir sus datos; revocar la autorizacion y presentar
-            quejas ante la Superintendencia de Industria y Comercio (SIC).
-          </li>
-          <li>
-            <strong>Seguridad:</strong> los datos se usan solo para la finalidad
-            informada y no se comercializan con terceros.
-          </li>
-          <li>
-            <strong>Vigencia:</strong> los datos se conservan por el tiempo
-            necesario para atender la solicitud o mientras exista una relacion
-            comercial.
-          </li>
-        </ul>
-        <p className="privacy-note">
-          Al enviar el formulario, el usuario autoriza el tratamiento de sus
-          datos personales para las finalidades aqui descritas.
-        </p>
-      </section>
-
       <footer className="footer">
         <p>Atencion personalizada para hogares, emprendedores y empresas.</p>
         <p className="footer-copy">
@@ -371,7 +327,6 @@ export default function App() {
         <p className="footer-security">
           Tratamiento de seguridad: la informacion enviada en el formulario se
           usa solo para contacto comercial y no se comparte con terceros.{" "}
-          <a href="#politica-privacidad">Ver politica de privacidad</a>.
         </p>
       </footer>
 
