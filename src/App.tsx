@@ -39,6 +39,12 @@ const services = [
       "Desarrollamos aplicaciones web a medida para optimizar procesos empresariales, mejorar la gestion de datos y potenciar la productividad de tu negocio con soluciones tecnológicas avanzadas.",
     icon: "app",
   }
+  {
+    title: "Desarrollo de aplicativos web personales",
+    description:
+      "Creamos aplicaciones web personalizadas para uso personal, como blogs, portafolios, sitios de eventos o cualquier proyecto digital que quieras llevar a la realidad con una presencia online única.",
+    icon: "app",
+  }
 ];
 
 const steps = [
@@ -300,9 +306,10 @@ export default function App() {
                   Instalacion de programas
                 </option>
                 <option value="Diseno de paginas web">
-                  Diseno de paginas web
+                  Diseño de paginas web
                 </option>
-                <option value="Aplicativos web">Aplicativos web</option>
+                <option value="Aplicativos web">Desarrollo Aplicativos web
+                </option>
               </select>
             </label>
 
