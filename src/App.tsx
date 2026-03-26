@@ -22,17 +22,23 @@ const services = [
     icon: "software",
   },
   {
-    title: "Diseno de paginas web",
+    title: "Diseño de paginas web",
     description:
       "Creamos sitios web modernos, responsivos y enfocados en tu marca. Desde paginas informativas hasta landing pages profesionales para captar clientes.",
     icon: "web",
   },
   {
-    title: "Desarrollo de aplicativos web",
+    title: "Desarrollo de aplicativos web academicos",
     description:
       "Construimos aplicaciones web personalizadas para automatizar procesos, gestionar informacion y mejorar la operacion de tu negocio con soluciones escalables.",
     icon: "app",
   },
+  {
+    title: "Desarrollo de aplicativos web empresariales",
+    description:
+      "Desarrollamos aplicaciones web a medida para optimizar procesos empresariales, mejorar la gestion de datos y potenciar la productividad de tu negocio con soluciones tecnológicas avanzadas.",
+    icon: "app",
+  }
 ];
 
 const steps = [
